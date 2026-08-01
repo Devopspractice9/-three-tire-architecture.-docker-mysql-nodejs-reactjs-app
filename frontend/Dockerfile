@@ -13,4 +13,4 @@ RUN npm run build
 
 EXPOSE 3001
 
-CMD [ "npx", "serve", "-s", "build" ]
+CMD ["npx", "serve", "-s", "build"]
